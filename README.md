@@ -19,4 +19,16 @@ git config --global user.email "tu_correo@ejemplo.com"
 
 #tags: configuracion, indentificacion, autor, global, email.
 
+### Inicializar un repositorio en un directorio local
+
+`git init` es un comando que se utiliza para iniciar un nuevo repositorio de Git en la carpeta actual, creando una carpeta oculta llamada ".git" para llevar un seguimiento de los cambios en los archivos. Es el primer paso para comenzar a trabajar con Git en un nuevo proyecto.
+
+```shell
+git init
+```
+
+#tags: crear repositorio, inicializar git, nuevo proyecto, crear carpeta .git.
+
+
 [git config]: #configurar-tu-usuario-y-correo-en-git
+[git init]: #inicializar-un-repositorio-en-un-directorio-local
