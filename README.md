@@ -1,9 +1,22 @@
 # 30 seconds of git
 
 Fragmentos cortos de git para todas sus necesidades de desarrollo, inspirado en [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-git).
+## Indice
 
-## ¿Quieres contribuir?
+- [Configurar tu usuario y corrreo en Git][git config]
+- [Inicializar un repositorio en un directiorio local][git init]
 
-- Utiliza la [plantilla](/plantilla.md) para agregar nuevos fragmentos y haz una [pull request](https://github.com/jaennova/30-seconds-of-git/pulls) para agregar tu fragmento a la colección.
+## Fragmentos
 
-- Si encuentra un problema con un fragmento específico, abra un [problema](https://github.com/jaennova/30-seconds-of-git/issues/new). 
+### Configurar tu usuario y correo en Git
+
+los siguientes son comandos para configurar tu nombre y correo en git para identificarte en tus commits. La opción --global hace que la configuración sea para todos los proyectos en tu equipo.
+
+```shell
+git config --global user.name "tu_nombre"
+git config --global user.email "tu_correo@ejemplo.com"
+```
+
+#tags: configuracion, indentificacion, autor, global, email.
+
+[git config]: #configurar-tu-usuario-y-correo-en-git
