@@ -6,6 +6,7 @@ Fragmentos cortos de git para todas sus necesidades de desarrollo, inspirado en 
 - [Configurar tu usuario y corrreo en Git][git config]
 - [Inicializar un repositorio en un directiorio local][git init]
 - [Crear una copia local de un repositorio existente][git clone]
+- [Crear un commit en una fecha en especifico][git date]
 
 ## Fragmentos
 
@@ -51,6 +52,23 @@ En este caso se estaría clonando el repositorio en una carpeta llamada "myproje
 Es importante mencionar que para clonar un repositorio es necesario tener acceso de lectura al mismo, si es un repositorio público no se necesita autenticación, en cambio si es privado es necesario tener los credenciales necesarias para acceder al mismo.
 
 #tags: clonar repositorio, copia local, descargar repositorio
+
+## Crear un commit en una fecha en especifico.
+
+Para hacer un commit con una fecha específica en Git, puedes usar el siguiente comando:
+
+```bash
+GIT_AUTHOR_DATE="YYYY-MM-DDTHH:MM:SS" GIT_COMMITTER_DATE="YYYY-MM-DDTHH:MM:SS" git commit -m "mensaje"
+```
+Donde YYYY-MM-DD es la fecha y HH:MM:SS es la hora. 
+
+Por ejemplo, si deseas hacer un commit el 11 de enero de 2022 a las 10:00 AM, el comando sería:
+
+```bash
+GIT_AUTHOR_DATE="2022-01-11T10:00:00" GIT_COMMITTER_DATE="2022-01-11T10:00:00" git commit -m "mensaje"
+```
+
+Recuerda reemplazar git commit con tus propios mensajes de commit y opciones.
 
 <!-- 
 ### git add [archivo]
@@ -239,3 +257,4 @@ cr-at-eol]
 [git config]: #configurar-tu-usuario-y-correo-en-git
 [git init]: #inicializar-un-repositorio-en-un-directorio-local
 [git clone]: #crear-una-copia-local-de-un-repositorio-existente
+[git date]: #crear-un-commit-en-una-fecha-en-especifico
