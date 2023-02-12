@@ -71,6 +71,7 @@ GIT_AUTHOR_DATE="2022-01-11T10:00:00" GIT_COMMITTER_DATE="2022-01-11T10:00:00" g
 Recuerda reemplazar git commit con tus propios mensajes de commit y opciones.
 
 <!-- 
+
 ### git add [archivo]
 
 
@@ -257,4 +258,3 @@ cr-at-eol]
 [git config]: #configurar-tu-usuario-y-correo-en-git
 [git init]: #inicializar-un-repositorio-en-un-directorio-local
 [git clone]: #crear-una-copia-local-de-un-repositorio-existente
-[git date]: #crear-un-commit-en-una-fecha-en-especifico
