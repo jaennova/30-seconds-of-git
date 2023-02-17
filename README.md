@@ -53,7 +53,7 @@ Es importante mencionar que para clonar un repositorio es necesario tener acceso
 
 #tags: clonar repositorio, copia local, descargar repositorio
 
-## Crear un commit en una fecha en especifico.
+## Crear un commit en una fecha en especifico
 
 Para hacer un commit con una fecha específica en Git, puedes usar el siguiente comando:
 
@@ -258,3 +258,4 @@ cr-at-eol]
 [git config]: #configurar-tu-usuario-y-correo-en-git
 [git init]: #inicializar-un-repositorio-en-un-directorio-local
 [git clone]: #crear-una-copia-local-de-un-repositorio-existente
+[git date]: #crear-un-commit-en-una-fecha-en-especifico
