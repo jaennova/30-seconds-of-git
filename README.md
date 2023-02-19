@@ -71,6 +71,8 @@ GIT_AUTHOR_DATE="2022-01-11T10:00:00" GIT_COMMITTER_DATE="2022-01-11T10:00:00" g
 
 Recuerda reemplazar git commit con tus propios mensajes de commit y opciones.
 
+#tags: cambiar fecha, date
+
 ## Editar el ultimo commit
 
 Si deseas editar el último commit que realizaste, puedes hacerlo utilizando el comando:
