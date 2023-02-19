@@ -82,6 +82,7 @@ git commit --amend
 
 Este comando te permitirá hacer cambios en el último commit, ya sea para agregar o modificar archivos o para cambiar el mensaje de confirmación.
 
+#tags: editar commit, modificar commit, renombrar
 
 
 <!-- 
