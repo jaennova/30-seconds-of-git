@@ -7,6 +7,7 @@ Fragmentos cortos de git para todas sus necesidades de desarrollo, inspirado en 
 - [Inicializar un repositorio en un directiorio local][git init]
 - [Crear una copia local de un repositorio existente][git clone]
 - [Crear un commit en una fecha en especifico][git date]
+- [Editar ultimo commit][git commit amend]
 
 ## Fragmentos
 
@@ -270,3 +271,4 @@ cr-at-eol]
 [git init]: #inicializar-un-repositorio-en-un-directorio-local
 [git clone]: #crear-una-copia-local-de-un-repositorio-existente
 [git date]: #crear-un-commit-en-una-fecha-en-especifico
+[git commit amend]: #editar-el-ultimo-commit
